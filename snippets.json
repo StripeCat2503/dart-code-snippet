@@ -1,0 +1,33 @@
+{
+	"stateless": {
+		"prefix": "stless",
+		"body": [
+			"import 'package:flutter/material.dart';\n",
+			"class $1 extends StatelessWidget {",
+			"\tconst $1 ({Key? key}) : super(key: key);\n",
+			"\t@override",
+			"\tWidget build(BuildContext context) {",
+			"\t\treturn Container();",
+			"\t}",
+			"}"
+		],
+		"description": "Flutter stateless widget"
+	},
+	"stateful": {
+		"prefix": "stful",
+		"body": [
+			"import 'package:flutter/material.dart';\n",
+			"class $1 extends StatefulWidget {",
+			"\tconst $1({Key? key}) : super(key: key);\n",
+			"\t@override",
+			"\tState<$1> createState() => _$1State();",
+			"}\n",
+			"class _$1State extends State<$1> {",
+			"\t@override",
+			"\tWidget build(BuildContext context) {",
+			"\t\treturn Container();",
+			"\t}",
+			"}"
+		]
+	}
+}
